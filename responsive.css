@@ -1,0 +1,64 @@
+@media screen and (max-width:1000px) {
+    .pe {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .pe {
+        width: 100%;
+    }
+}
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .pe{
+    width:50%
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .btn {
+    width: 50%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .pe{
+    width: 100%;
+  }
+
+  /*footer responsive oleh Putu Yuna */
+  footer {
+    text-align: center;
+  }
+}
